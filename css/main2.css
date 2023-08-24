@@ -1,0 +1,231 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.nav{
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(120deg,#1a1a1a 65%,#8c00c4);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 46846846;
+    padding-top: 5px;
+
+}
+body{
+    color: white;
+}
+.nav .logo img{
+width: 184px;
+height: 40px;
+margin-top: 20px;
+margin-left: 40px;
+}
+.nav .right{
+   
+    display: flex;
+    margin-top: 30px;
+    margin-right: 200px;
+    justify-content: space-evenly;
+}
+.nav .right .options .toglar{
+    display: none;
+}
+.nav .right .options ul{
+display: flex;
+margin-right: 100px;
+}
+.nav .right .options ul li{
+    list-style: none;
+}
+.nav .right .options ul li a{
+    text-decoration: none;
+    margin-right: 20px;
+    margin-left: 20px;
+    color: white;
+    font-size: 15px;
+    font-family: Poppins,sans-serif;
+    font-weight: 300;
+    transition: 0.5s;
+}
+.nav .right .options ul li a:hover{
+    font-weight: 800;
+    font-size:17px ;
+    text-shadow:2px 2px 20px #805dff;
+}
+.nav .right .icons{
+    width: auto;
+    margin-top: 0px;
+}
+.nav .right .icons i{
+    margin-right: 20px;
+    font-size: larger;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.nav .right .icons i:hover{
+transform: rotate(360deg);
+font-size: xx-large;
+color: rgba(255, 255, 255, 0.5);
+}
+.aim{
+    padding-top: 20px;
+    background-image: url(../images/3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 68vh;
+}
+.aim .all-titles{
+    width: 75%;
+    height: auto;
+    padding-bottom: 100px;
+   height:190px ;
+   padding-top: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin:140px  auto auto ;
+}
+
+.aim .all-titles .title{
+    display: flex;
+    width: 95%;
+    height: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(12,12,12,.7);;
+    margin: auto auto 20px auto; 
+    transition: all .8s;
+}
+.aim .all-titles .title:hover{
+    background-attachment: fixed;
+    border: 2px solid blue;
+    cursor: pointer;
+    transform: ;
+}
+.aim .all-titles .title h2{
+    margin-left: 350px;
+    margin-top: 10px;
+}
+.aim .all-titles .title i{
+    margin-left: 20px;
+    font-size: large;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: #1a1a1a;
+    padding-top: 2px;
+    padding-bottom: 60px;
+}
+.footer .information{
+    width: 90%;
+    margin: auto;
+    height: auto;
+    margin-top: 40px;
+ color: white;
+ display: flex;
+ justify-content: space-evenly;
+ margin-left: 120px;
+}
+.footer .information .address{
+    width: 24%;
+    text-align: center;    
+}
+.footer .information .address h1{
+    font-size: 36px;
+    font-weight: 100;
+    margin-bottom: 10px;
+
+}
+.footer  p{
+    margin-bottom: 15px;
+    letter-spacing: 1.2;
+    color: white;
+}
+.footer p span{
+    font-weight: 900;
+}
+.praite{
+   margin-left: 180px;
+   margin-top: -20px;
+}
+.praite p{
+    margin-top: 70px;
+    color: white;
+}
+.footer .praite h3{
+    margin-top: -10PX;
+    font-size: 16PX;
+    color: white;
+}
+.footer .praite h3 a{
+text-decoration: none;
+color: #9ae1af;
+text-shadow: 2px 2px 2px black;
+}
+.footer .information .links{
+    width: 24%;
+    margin-left: 50px;
+}
+.footer .information .links h2{
+margin-bottom: 20px;
+margin-left: 10px;
+}
+.footer .information .links i{
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    background-color: #8c00c4;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-left: 9px;
+}
+.information .sponsors{
+width: 24%;
+}
+.information .sponsors img{
+    max-width: 100%;
+    width: 50px;
+    height: 40px;
+}
+.information .sponsors .sponser-logo{
+    display: flex;
+}
+.information .sponsors .sponser-logo a{
+    margin-top: 10px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+}
+.information .sponsors h2{
+    margin-bottom: 20px;
+    font-size: 17px;
+   margin-left: 30px;
+   font-weight: 800;
+}
+.information .sponsors .pic{
+    margin-top: 20px;
+}
